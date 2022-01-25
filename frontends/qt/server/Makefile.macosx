@@ -2,7 +2,7 @@ include ../../../hardening.mk.inc
 include ../../../env.mk.inc
 CGO=1
 BUILDMODE=c-shared
-GOARCH=amd64
+GOARCH=arm64
 GOOS=darwin
 
 darwin:
